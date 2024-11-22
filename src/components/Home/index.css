@@ -34,6 +34,7 @@
   color: #8e0000;
   text-align: left;
   padding-left: 50px;
+  font-size: 30px;
 }
 .span-heading {
   font-family: 'Roboto';
@@ -63,5 +64,24 @@
 
 .menu-button:hover {
   background-color: orange;
-  color:brown;
+  color: brown;
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    transform: skew(0deg, 0deg);
+    max-width: 80%;
+    padding: 10px;
+  }
+  .home-heading {
+    text-align: center;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+  .span-heading {
+    padding-left: 50px;
+  }
+  .restaurant-image {
+    width: 100%;
+  }
 }

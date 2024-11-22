@@ -6,7 +6,7 @@ function Home(props) {
   const navigate = useNavigate()
   const {data} = props
   const {restaurantName, restaurantImage} = data
-  
+
   return (
     <div className="home-main-container">
       <div className="home-container">

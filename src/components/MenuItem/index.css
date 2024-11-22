@@ -119,3 +119,51 @@
   font-weight: 400;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-dish-details h2 {
+    font-size: 13px;
+  }
+  .menu-dish-item{
+    padding:4px;
+  }
+  .not-available-tag{
+    font-size: 11px;
+  }
+  .dish-price {
+    font-size: 13px;
+  }
+  .dish-description {
+    font-size: 8px;
+  }
+  .dish-count-container {
+    gap: 8px;
+  }
+  .control-buttons {
+    font-size: 10px;
+  }
+  .quantity {
+    font-size: 10px;
+  }
+  .customization-note {
+    font-size: 11px;
+  }
+  .dish-calories {
+    font-size: 8px;
+  }
+  .dish-image {
+    width: 100px;
+    height: 80px;
+  }
+  .dish-description-container {
+    gap: 2px;
+  }
+  .logo-container {
+    height: 15px;
+    width: 15px;
+  }
+  .logo-circle {
+    width: 8px;
+    height: 8px;
+  }
+}
