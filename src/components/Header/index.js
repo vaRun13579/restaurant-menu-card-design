@@ -11,7 +11,7 @@ const Header = () => {
   cartItems.forEach(dishItem => {
     dishItem.category_dishes.forEach(dish => {
       if (dish.selectedQuantity > 0) {
-        itemsInCart += 1
+        itemsInCart += dish.selectedQuantity
       }
     })
   })
