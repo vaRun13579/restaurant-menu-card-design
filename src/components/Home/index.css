@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .home-main-container {
-  min-height: 100vh;
+  min-height: 100dvh;
   /* background-image: url('https://i.pinimg.com/736x/d9/c7/d0/d9c7d049e7baa22ebf030200af741db8.jpg'); */
   background-image: url('https://i.pinimg.com/736x/56/7b/2e/567b2e2dea3024815e59b74c83050a5e.jpg');
   background-size: contain;
@@ -76,10 +76,10 @@
   .home-heading {
     text-align: center;
     font-size: 18px;
-    padding-right: 20px;
+    padding-right: 0px;
   }
   .span-heading {
-    padding-left: 50px;
+    padding-left: 10px;
   }
   .restaurant-image {
     width: 100%;

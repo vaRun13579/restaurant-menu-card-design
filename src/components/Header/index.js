@@ -17,10 +17,10 @@ const Header = () => {
   })
   return (
     <div className="header-container">
-      <Link to="/">
+      <Link to="/" style={{textDecoration: 'none'}}>
         <h1 className="site-name">UNI Resto Cafe</h1>
       </Link>
-      <Link to="/cart">
+      <Link to="/cart" style={{textDecoration: 'none'}}>
         <div className="cart-name-bucket">
           <p className="cart-name">My Orders</p>
           <IoCartOutline height="15px" className="cart-logo" />

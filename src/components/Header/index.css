@@ -50,24 +50,24 @@
   align-content: center;
 }
 
-@media screen and (max-width:768px){
-  .items-count{
-    height:20px;
-    width:15px;
-    top:-25px;
-    right:-8px;
-    font-size:10px;
+@media screen and (max-width: 768px) {
+  .items-count {
+    height: 20px;
+    width: 15px;
+    top: -25px;
+    right: -8px;
+    font-size: 10px;
   }
-  .header-container{
+  .header-container {
     padding: 5px 20px;
   }
-  .site-name{
-    font-size:15px;
+  .site-name {
+    font-size: 15px;
   }
-  .cart-name{
-    font-size:10px;
+  .cart-name {
+    font-size: 10px;
   }
-  .cart-logo{
-    font-size:15px;
+  .cart-logo {
+    font-size: 15px;
   }
 }
