@@ -1,0 +1,38 @@
+.main-menu-container {
+  background-color: white;
+}
+
+.slab-list-container {
+  display: flex;
+  gap: 20px;
+  border: solid 2px #f0f0f0;
+  padding: 0px 50px;
+  overflow: auto;
+  list-style-type: none;
+  align-items: center;
+  margin-top:0px;
+}
+
+.slab-button {
+  border: none;
+  width: fit-content;
+  white-space: nowrap;
+  padding: 20px 30px;
+  height: 100%;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.selected-slab {
+  color: #ff6347;
+  border-bottom: solid 3px #ff6347;
+}
+
+.menu-items-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 15px;
+}

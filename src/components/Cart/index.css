@@ -1,0 +1,16 @@
+.cart-main-container {
+  min-height: 100vh;
+}
+
+.cart-list-container {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.no-items-tag{
+  color:orange;
+  text-align: center;
+}
