@@ -17,7 +17,7 @@ const Header = () => {
   })
   return (
     <div className="header-container">
-      <Link to="/" style={{textDecoration: 'none'}}>
+      <Link to="/menucard" style={{textDecoration: 'none'}}>
         <h1 className="site-name">UNI Resto Cafe</h1>
       </Link>
       <Link to="/cart" style={{textDecoration: 'none'}}>
